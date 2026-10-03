@@ -22,3 +22,81 @@
 
 // 6. Themes
 @use 'themes/default';
+// // Variables de color (estilo Dark Mode moderno)
+// $bg-card: #1e1e24;
+// $text-primary: #f8f9fa;
+// $text-secondary: #adb5bd;
+// $accent-color: #f7df1e; // El color clásico de JavaScript
+// $border-radius: 12px;
+
+// .app-container {
+//   max-width: 600px;
+//   margin: 40px auto;
+//   padding: 0 20px;
+//   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+// }
+
+// .card {
+//   background-color: $bg-card;
+//   color: $text-primary;
+//   border-radius: $border-radius;
+//   padding: 24px;
+//   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+//   border: 1px solid rgba(255, 255, 255, 0.05);
+//   transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+//   // Efecto sutil al pasar el mouse (los reclutadores aman estos detalles)
+//   &:hover {
+//     transform: translateY(-4px);
+//     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4);
+//   }
+
+//   h2 {
+//     color: $accent-color;
+//     margin-top: 0;
+//     font-size: 1.5rem;
+//   }
+
+//   h3 {
+//     font-size: 1.1rem;
+//     margin-top: 20px;
+//     color: $text-primary;
+//   }
+
+//   hr {
+//     border: 0;
+//     height: 1px;
+//     background: rgba(255, 255, 255, 0.1);
+//     margin: 20px 0;
+//   }
+
+//   p, ul {
+//     font-size: 0.95rem;
+//     line-height: 1.6;
+//     color: $text-secondary;
+//   }
+
+//   ul {
+//     list-style: none;
+//     padding-left: 0;
+
+//     li {
+//       margin-bottom: 8px;
+      
+//       strong {
+//         color: $text-primary;
+//       }
+
+//       em {
+//         color: $accent-color;
+//         font-style: normal;
+//         background: rgba(247, 223, 30, 0.1);
+//         padding: 2px 6px;
+//         border-radius: 4px;
+//         font-size: 0.85rem;
+//         margin-left: 4px;
+//       }
+//     }
+//   }
+// }
+

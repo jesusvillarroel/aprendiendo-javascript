@@ -1,9 +1,21 @@
-@use '../abstracts';
+@use '../abstracts' as vp;
 
 /**
  * Basic typography style for copy text
  */
 body {
-  color:black;
+  background-color: #121214; // Fondo oscuro general (estilo VS Code)
+  color: vp.$text-primary;
+  margin: 0;
+  padding: 0;
+  font-family:vp.$font-primary;
+  display: block;
+  min-height: 100vh;
   
+}
+h1{
+  margin: 0;
+  padding: 0;
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
 }

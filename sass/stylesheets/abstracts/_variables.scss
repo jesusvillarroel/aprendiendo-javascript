@@ -4,11 +4,15 @@
 
 /// Regular font family
 /// @type List
-
+$font-primary:'Segoe UI', system-ui, -apple-system, sans-serif;
 
 /// Copy text color
 /// @type Color
-
+$bg-card: #1e1e24;
+$text-primary: #f8f9fa;
+$text-secondary: #adb5bd;
+$accent-color: #f7df1e; // El color clásico de JavaScript
+$border-radius: 12px;
 
 /// Main brand color
 /// @type Color
@@ -16,7 +20,7 @@
 
 /// Container's maximum width
 /// @type Length
-$max-width: 1300px !default;
+$max-width: 600px !default;
 /// Breakpoints map
 /// @prop {String} keys - Keys are identifiers mapped to a given length
 /// @prop {Map} values - Values are actual breakpoints expressed in pixels

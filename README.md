@@ -32,7 +32,7 @@ Aquí registraré los módulos completados. Cada sección se renderiza dinámica
 
 ### 🟩 1. Fundamentos
 * [x] **Variables y Tipos de Datos:** Uso correcto de `let` y `const`, validación con `typeof` y buenas prácticas de nomenclatura.
-* [ ] **Estructuras de Control:** Toma de decisiones con `if/else`, `switch` y optimización de bucles (`for`, `while`).
+* [x] **Estructuras de Control:** Toma de decisiones con `if/else`, `switch` y optimización de bucles (`for`, `while`).
 * [ ] **Funciones:** Declarativas, funciones flecha (*arrow functions*) y retorno de valores.
 
 ### 🟨 2. Estructuras de Datos

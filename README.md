@@ -1,39 +1,62 @@
-# 🚀 Nombre de tu Proyecto
+# 🚀 Aprendiendo JavaScript - Bitácora de Aprendizaje
 
-Una pequeña descripción de lo que hace este nuevo sitio web.
+¡Bienvenido a mi repositorio de aprendizaje de **JavaScript Moderno (ES6+)**! Este espacio está diseñado para registrar mi progreso diario, consolidar conceptos clave y demostrar mi constancia a través de prácticas reales y proyectos interactivos.
 
-🔗 **[Ver el sitio web en vivo aquí](https://github.io)**
+El proyecto está construido sobre un entorno de desarrollo moderno y profesional, simulando las mejores prácticas de la industria.
 
 ---
 
-### 🚨 PASOS OBLIGATORIOS AL INICIAR (¡Lee esto primero!)
+## 🛠️ Tecnologías y Entorno
 
-Cada vez que dupliques esta plantilla para un nuevo proyecto, debes hacer estos 3 ajustes rápidos:
+* **Frontend:** JavaScript (ES6+), HTML5
+* **Estilos:** Sass (SCSS) con arquitectura modular
+* **Herramienta de Construcción:** Vite (Entorno Ultra Rápido)
+* **Automatización (CI/CD):** GitHub Actions (Linter / Validación Automática)
 
-1. **Configurar Vite**: Abre `vite.config.js` y cambia el valor de `base` por el nombre exacto de tu nuevo repositorio en GitHub:
-   ```javascript
-   base: '/nombre-de-tu-nuevo-repo/'
-   ```
-2. **Iniciar Git**: Abre la terminal en esta carpeta y ejecuta:
+---
+
+## 📂 Estructura del Proyecto
+
+La arquitectura está diseñada para ser limpia, escalable y fácil de navegar por módulos independientes:
+
+* `src/modulos/fundamentos/` — Conceptos base (variables, estructuras de control, funciones).
+* `src/modulos/estructuras-datos/` — Manipulación de Arrays, Objetos y JSON.
+* `src/modulos/navegador/` — Interactividad con el DOM y manejo de eventos.
+* `.github/workflows/` — Automatización y validación del código (CI/CD).
+
+---
+
+## 📈 Bitácora de Progreso
+
+Aquí registraré los módulos completados. Cada sección se renderiza dinámicamente mediante tarjetas interactivas en la aplicación:
+
+### 🟩 1. Fundamentos
+* [x] **Variables y Tipos de Datos:** Uso correcto de `let` y `const`, validación con `typeof` y buenas prácticas de nomenclatura.
+* [ ] **Estructuras de Control:** Toma de decisiones con `if/else`, `switch` y optimización de bucles (`for`, `while`).
+* [ ] **Funciones:** Declarativas, funciones flecha (*arrow functions*) y retorno de valores.
+
+### 🟨 2. Estructuras de Datos
+* [ ] **Arrays Avanzados:** Métodos modernos de iteración (`map`, `filter`, `reduce`).
+* [ ] **Objetos y Desestructuración:** Manipulación de propiedades, métodos y desestructuración avanzada.
+
+---
+
+## 🚀 Cómo ejecutar el proyecto de forma local
+
+Si deseas clonar este repositorio y ver las tarjetas interactivas en tu navegador, sigue estos pasos en tu terminal:
+
+1. Clonar el repositorio:
    ```bash
-   git init
-   git remote add origin https://github.com
+   git clone https://github.com
    ```
-3. **Activar GitHub Actions**: Tras subir tu primer commit a GitHub, ve a la pestaña **Settings ➔ Pages** en la web de tu repositorio y en *Source* selecciona **GitHub Actions**.
+2. Instalar dependencias:
+   ```bash
+   npm install
+   ```
+3. Iniciar el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
 
----
 
-## 📂 Estructura de Estilos (Sass Modular)
-Este proyecto utiliza una arquitectura modular limpia para organizar los estilos en `src/sass/`:
-* `abstracts/`: Variables y mixins.
-* `base/`: Reset y tipografía global.
-* `layout/`: Estructura general de las páginas (header, hero, footer).
-* `components/`: Elementos reutilizables (buttons, cards).
 
-*Nota: Todos los módulos se importan en `src/sass/main.scss`, el cual está conectado en el archivo `main.js`.*
-
-## 🛠️ Comandos Útiles
-
-* `npm install` - Instala las dependencias la primera vez.
-* `npm run dev` - Arranca el servidor de desarrollo local.
-* `npm run build` - Compila el proyecto localmente (opcional, ya que GitHub Actions lo hace solo al hacer push).

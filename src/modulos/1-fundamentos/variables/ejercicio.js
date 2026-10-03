@@ -22,7 +22,7 @@
 // console.log(`esDivertido es: ${typeof esDivertido}`);
 // console.log(`variableVacia es: ${typeof variableVacia}`);
 // ====== 1. Declaración de Variables ======
-const nombreProyecto = "Aprendiendo JavaScript con Vite";
+const nombreProyecto = "Declaracion de variables y typeof";
 let nivelProgreso = 1;
 
 // ====== 2. Tipos de Datos Primitivos ======
@@ -38,7 +38,7 @@ const app = document.getElementById('javascript-output');
 if (app) {
   app.innerHTML = `
     <div class="card">
-      <h2>🚀 Proyecto: ${nombreProyecto}</h2>
+      <h2>🚀 Modulo 1: ${nombreProyecto}</h2>
       <p><strong>📈 Nivel actual:</strong> Módulo ${nivelProgreso}</p>
       
       <hr>

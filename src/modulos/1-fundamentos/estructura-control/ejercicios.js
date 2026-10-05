@@ -84,7 +84,7 @@ const tarjetaControl = document.createElement('div');
 tarjetaControl.className = 'card';
 
 tarjetaControl.innerHTML = `
-  <h2>🔀 Módulo 2: Estructuras de Control</h2>
+  <h2>🔀 Módulo 1-2: Estructuras de Control</h2>
   
   <h3>🛒 1. Carrito de Compras:</h3>
   <p>Monto original: <strong>$${montoCompra}</strong> | Descuento: <strong>${descuentoAplicado}%</strong></p>

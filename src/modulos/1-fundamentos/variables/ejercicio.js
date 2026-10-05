@@ -38,7 +38,7 @@ const app = document.getElementById('javascript-output');
 if (app) {
   app.innerHTML = `
     <div class="card">
-      <h2>🚀 Modulo 1: ${nombreProyecto}</h2>
+      <h2>🚀 Modulo 1-1: ${nombreProyecto}</h2>
       <p><strong>📈 Nivel actual:</strong> Módulo ${nivelProgreso}</p>
       
       <hr>

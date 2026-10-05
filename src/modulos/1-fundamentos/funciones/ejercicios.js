@@ -37,7 +37,7 @@ const miDiagnosticoIMC=calcularIMC(miPeso,miAltura);
 const tarjetaFunciones = document.createElement('div');
 tarjetaFunciones.className = 'card';
 tarjetaFunciones.innerHTML = `
-  <h2>⚡ Módulo 3: Funciones de Flecha</h2>
+  <h2>⚡ Módulo 1-3: Funciones de Flecha</h2>
   
   <h3>🌡️ 1. Convertidor & Catálogo:</h3>
   <p>25°C equivalen a: <strong>${convertirCelsiusAFahrenheit(25)}°F</strong></p>

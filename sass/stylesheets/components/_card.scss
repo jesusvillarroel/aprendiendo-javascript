@@ -13,7 +13,7 @@
     transform: translateY(-4px);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.4);
   }
-
+ 
   h2 {
     color: vp.$accent-color;
     margin-top: 0;
@@ -64,4 +64,9 @@
       }
     }
   }
+  &--success {
+    border-color: rgba(46, 204, 113, 0.4); // Borde verde esmeralda sutil
+    box-shadow: 0 10px 25px rgba(46, 204, 113, 0.15); // Resplandor verde suave en la sombra
+   
+  } 
 }

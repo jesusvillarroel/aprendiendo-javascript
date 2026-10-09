@@ -7,3 +7,4 @@ import './modulos/2-array-avanzados/metodos/prueba_tecnica.js';
 import './modulos/2-array-avanzados/matrices/ejercicio.js';
 import './modulos/2-array-avanzados/optimizacion/ejercicio.js';
 import './modulos/asincronia-apis/introduccion/ejercicios.js';
+import './modulos/asincronia-apis/promesas/ejercicios.js';
